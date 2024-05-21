@@ -1,0 +1,34 @@
+.div1{
+  text-align: center;
+  background-color: rgb(214, 211, 211, 0.606);
+  border-radius: 5px;
+  justify-content: center;
+  border: 0.1px solid black;
+  width: 75%;
+  margin: auto;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-top:100px;
+}
+
+.div3{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-container{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.member img{
+
+  width: 100%;
+  height: 400px;
+}

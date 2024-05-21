@@ -1,0 +1,135 @@
+    
+    h1{
+        text-align: center  ;
+        color: rgb(0, 0, 0);
+    }
+    
+    p{
+        font-family: "Platypi", serif;
+        font-size: large;
+        
+    }
+    
+    /*home intro*/
+    
+      /*Home intro*/
+    
+      * {
+        box-sizing: border-box;
+    }
+    
+.food-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+ .food{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        margin-bottom: 20px;
+
+    }
+    .menu {
+        text-align: center;
+        border:1px solid black;
+        padding:10px;
+    }
+    .service {
+        text-align: center;
+        border:1px solid black;
+        padding:10px;
+        width:150px;
+        margin:auto;
+    }
+    
+    .food-container img{
+        width: 100%;
+        height: 225px;
+    }
+    
+    
+    /*Top three best selling food items*/
+    
+    h1{
+        text-align: center;
+        color: rgb(255, 225, 230);
+       
+    }
+    
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+        margin-top: 100px;
+      
+    }
+    
+    .item {
+        background-color: rgb(250, 202, 249);
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+       
+    }
+    
+    
+    
+    .item p{
+        color: darkblue;
+        
+    }
+    
+    
+    img{
+        width: 100%;
+        height: auto;
+    }
+    
+    /*Service*/
+    
+.Services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+   margin-top: 20px;
+}
+
+.sev{
+    width: 100%;
+    background-color: rgb(250, 202, 249);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+}
+
+
+.div1{
+    width: 200px;
+    background-color: rgb(195, 241, 188);
+    border: 5px solid black;
+    margin:0 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    
+}
+
+.div1 p{
+    color: rgb(137, 87, 96);
+}
+
+a img{
+width: 70px;
+height: 70px;
+}
+
+.Services img{
+    width: 100%;
+    height: 250px;
+}

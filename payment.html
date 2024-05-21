@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="column.css">
+<link rel="stylesheet" href="payment.css">
+<link rel="stylesheet" href="nav.css">
+<link rel="stylesheet" href="footer.css">
+</head>
+<body>
+
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn"><i class="bi bi-list"></i></label>
+        <a href="#" class="logo"><img src="image/1_photo_added-removebg-preview.png" alt="" width="70px" height="70px"></a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown"><a href="#">Menu<i class="bi bi-caret-down-fill"></i></a>
+                <div class="dropdown-menu">
+                    <a href="maindishes 1.html">Main Dishes</a>
+                    <a href="salads.html">Salads</a>
+                    <a href="drinks 1.html">Drinks</a>
+                </div>
+            </li>
+            <li><a href="aboutus1 1.html">About</a></li>
+            <li><a href="contact 2.html">Contact</a></li>
+        </ul>
+    </nav>
+
+<div class="pay_form">
+<h2>Wai Wai's Payment Form</h2>
+<div class="row pay">
+<div class="col-s-5 form">
+<div class="row">
+<label>Name:</label><br>
+<input type="input" name="name" class="box">                    
+</div>
+<div class="row">
+<label for="add">Address:</label><br>
+<input type="textarea" name="address" id="add" class="box">                    
+</div>
+<div class="row">
+<label for="phno">Contact Phone No:</label><br>
+<input type="input" name="phno" id="phno" class="box">                    
+</div>
+<div class="row">
+<label for="menu">Number of Menu:</label><br>
+<input type="input" name="menu" id="menu" class="box" >              
+</div>
+<div class="row">
+<label for="des">Description:</label><br>
+<input type="textarea" name="address" id="des" class="box">                
+</div>
+<div class="row">
+<label>Choose Payment method</label>
+</div>
+<div class="row">
+<div class="col-s-4">
+<input type="radio" id="kpay" name="pay" value="pay">
+<label for="kpay">Kpay     </label><br>
+<image class="qr-image" src="image/qr1.png" alt="qrcode" width="120px" height="80px"></image>
+</div>
+<div class="col-s-4">
+<input type="radio" id="apay" name="pay" value="pay">
+<label for="apay">AYAPay</label><br>
+<image class="qr-image" src="image/qr2.png" alt="qrcode" width="120px" height="80px"></image>
+</div>
+<div class="col-s-4">
+<input type="radio" id="wave" name="pay" value="pay">
+<label for="wave">Wave    </label><br>
+<image class="qr-image" src="image/qr3.png" alt="qrcode" width="120px" height="80px"></image>
+</div>
+</div>
+<div class="row">
+<label for="receipt">Upload Receipt:</label><br>
+<input type="file" id="receipt" name="myfile">
+</div>
+<button type="button">Submit</button>
+
+
+
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.heading {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+dl {
+    font-size: 30px;
+}
+.credit {
+    background-color: antiquewhite;
+}
+.links {
+    margin-left: 100px;
+}
+dt {
+    padding: 10px;
+}
